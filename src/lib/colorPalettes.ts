@@ -61,7 +61,7 @@ export const colorPalettes = {
           primary: "#FFF1F2",
           secondary: "#FBCFE8",
           background:
-            "linear-gradient(to top,#FBCFE8 0%,#FFF1F2 50%, #FBCFE8 100%)",
+            "linear-gradient(to top,#FFF1F2 0%,#FBCFE8 50%, #FFF1F2 100%)",
           text: "#111827",
           text2: "#111827",
         },
@@ -88,7 +88,7 @@ export const colorPalettes = {
           primary: "#1A202C",
           secondary: "#2D3748",
           background:
-            "linear-gradient(to top,#1A202C 0%,#1A202C 50%, #2D3748 100%)",
+            "linear-gradient(to top,#1A202C 0%,#2D3748 50%, #2D3748 100%)",
           text: "#F7FAFC",
           text2: "#F7FAFC",
         },

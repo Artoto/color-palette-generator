@@ -63,7 +63,7 @@ const PreviewWebsite = ({ palette }: PreviewWebsiteProps) => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="px-8 py-3 rounded-full  font-semibold"
-          style={{ backgroundColor: palette.primary, color: palette.text2 }}
+          style={{ backgroundColor: palette.primary, color: palette.text }}
         >
           Get Started
         </motion.button>
