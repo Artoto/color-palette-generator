@@ -36,7 +36,7 @@ export const colorPalettes = {
           background:
             "linear-gradient(to top,#000000 0%,#FFFFFF 50%, #000000 100%)",
           text: "#FFFFFF",
-          text2: "#000000",
+          text2: "#FFFFFF",
         },
         {
           name: "Cold Concrete",
@@ -45,7 +45,7 @@ export const colorPalettes = {
           background:
             "linear-gradient(to top,#9CA3AF 0%,#D1D5DB 50%, #9CA3AF 100%)",
           text: "#FFFFFF",
-          text2: "#1F2937",
+          text2: "#FFFFFF",
         },
         {
           name: "Sand Tones",
