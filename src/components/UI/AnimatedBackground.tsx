@@ -40,7 +40,7 @@ const AnimatedBackground = () => {
           size: Math.random() * 200 + 50,
           color: colors[Math.floor(Math.random() * colors.length)],
           delay: Math.random() * 2,
-          duration: Math.random() * 20 + 10,
+          duration: Math.random() * 30 + 20, // ช่วงเวลา 20-50 วินาที (เดิม 10-30)
         });
       }
 
@@ -48,7 +48,7 @@ const AnimatedBackground = () => {
     };
 
     generateShapes();
-  }, [colors]);
+  }, []);
 
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
@@ -85,13 +85,13 @@ const AnimatedBackground = () => {
             backgroundColor: shape.color,
           }}
           animate={{
-            x: [0, 30, -20, 0],
-            y: [0, -20, 30, 0],
-            scale: [1, 1.1, 0.9, 1],
-            rotate: [0, 180, 360],
+            x: [0, 20, -15, 0], // ลดการเคลื่อนไหวลง
+            y: [0, -15, 20, 0], // ลดการเคลื่อนไหวลง
+            scale: [1, 1.05, 0.95, 1], // ลด scale ให้นุ่มนวลกว่า
+            rotate: [0, 90, 180, 270, 360], // หมุนช้าลง
           }}
           transition={{
-            duration: shape.duration,
+            duration: shape.duration * 2, // เพิ่มความช้า 2 เท่า
             delay: shape.delay,
             repeat: Infinity,
             ease: "easeInOut",
